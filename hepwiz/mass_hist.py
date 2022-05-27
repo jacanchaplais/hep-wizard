@@ -46,7 +46,7 @@ def main(lhe_path: str, pythia_settings: str, output: str,
     -----
     Parallelism is implemented using MPI. To make use of multiple cores,
     `mpiexec` must be used when executing this program.
-    eg. `mpiexec -np 40 ./mass_hist [OPTIONS] [ARGUMENTS] -- [PDGS]`
+    eg. `mpiexec -np 40 mass-hist [OPTIONS] [ARGUMENTS] -- [PDGS]`
     The PDGS argument was separated from the others with a double hyphen
     to prevent the CLI interpreting negative PDG codes as options.
     """
